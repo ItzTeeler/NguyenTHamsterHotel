@@ -1,0 +1,167 @@
+/* Fonts */
+@font-face {
+    font-family: Source Sans Pro;
+    src: url(../fonts/SourceSansPro-Regular.otf);
+}
+
+@font-face {
+    font-family: Dosis;
+    src: url(../fonts/Dosis-VariableFont_wght.ttf);
+}
+/* End of Fonts */
+
+/* NavBar */
+.bgNavBar{
+    background-color: #000324;
+    top: 0;
+}
+
+.fontNavBar{
+    color: #FFFFFF;
+    font-family: Dosis;
+    font-size: 20px;
+    text-align: left;
+    letter-spacing: 0;
+    opacity: 1;
+}
+.fontNavBar:hover{
+    border: 2px solid #E5FEFF;
+    color: #FFFFFF;
+}
+.fontNavBar:visited{
+    color: #FFFFFF;
+}
+.fontNavBar:active{
+    color: #FFFFFF;
+}
+.fontNavBar:link{
+    color: #FFFFFF;
+}
+.navbar{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.moveNavBar{
+    display: flex;
+    align-items: flex-end;
+}
+
+/* End of NavBar */
+
+/* Head Image */
+.headImage{
+    background-image: url(../assets/header.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3%;
+    height: 500px;
+    /* padding: 8%; */
+}
+.headBox{
+    background-color: #000324;
+    opacity: 0.8;
+    /* Width of box */
+    /* margin-left: 20%;
+    margin-right: 20%; */
+
+    /* Padding of text inside */
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 15%;
+    padding-right: 15%;
+
+    
+}
+.headTitle{
+    font-family: Dosis;
+    font-size: 45px;
+    color: #E5FEFF;
+    opacity: 1;
+    text-align: center;
+
+    
+}
+.headText{
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    color: #E5FEFF;
+    opacity: 1;
+    text-align: center;
+
+}
+/* End of Head Image */
+
+/* Start of Hammy's Paradise */
+.hammysPic{
+    height: 416px;
+    width: 369px;
+    object-fit: cover;
+}
+
+.moveHammyPic{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hammyTitle{
+    color: #1A1B26;
+    font-size: 35px;
+    text-align: left;
+}
+
+.hammyText{
+    color: #1A1B26;
+    font-size: 16px;
+    text-align: left;
+}
+/* End of Hammy's Paradise */
+
+/* Start Hammy's Rooms Image */
+
+.bgRooms{
+    background-image: url(../assets/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-top: 2%;
+    padding-bottom: 7%;
+    padding-left: 6.5%;
+    padding-right: 6.5%;
+}
+
+.roomTitle{
+    color: #FFFFFF;
+    font-size: 35px;
+    font-family: Dosis;
+    text-align: center;
+}
+
+#leftCard{
+    display: flex;
+    justify-content: flex-end;
+}
+#middleCard{
+    display: flex;
+    justify-content: center;
+}
+#rightCard{
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* End of Hammy's Rooms */
+
+/* Start of Packages */
+.weddingPackage{
+    object-position: top;
+}
+.packagePic{
+    width: 100%;
+    height: 234px;
+    object-fit:cover;
+}
