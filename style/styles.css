@@ -8,41 +8,50 @@
     font-family: Dosis;
     src: url(../fonts/Dosis-VariableFont_wght.ttf);
 }
+
+@font-face {
+    font-family: Source Sans Pro-Bold;
+    src: url(../fonts/SourceSansPro-Bold.otf);
+}
+
 /* End of Fonts */
 
 /* NavBar */
-.bgNavBar{
+.bgNavBar {
     background-color: #000324;
     top: 0;
 }
 
-.fontNavBar{
+.fontNavBar {
     color: #FFFFFF;
     font-family: Dosis;
     font-size: 20px;
-    text-align: left;
-    letter-spacing: 0;
     opacity: 1;
 }
-.fontNavBar:hover{
+
+.fontNavBar:hover {
     border: 2px solid #E5FEFF;
     color: #FFFFFF;
 }
-.fontNavBar:visited{
+
+.fontNavBar:visited {
     color: #FFFFFF;
 }
-.fontNavBar:active{
+
+.fontNavBar:active {
     color: #FFFFFF;
 }
-.fontNavBar:link{
+
+.fontNavBar:link {
     color: #FFFFFF;
 }
-.navbar{
+
+.navbar {
     padding-top: 0;
     padding-bottom: 0;
 }
 
-.moveNavBar{
+.moveNavBar {
     display: flex;
     align-items: flex-end;
 }
@@ -50,7 +59,7 @@
 /* End of NavBar */
 
 /* Head Image */
-.headImage{
+.headImage {
     background-image: url(../assets/header.jpg);
     background-size: cover;
     background-position: center;
@@ -61,7 +70,8 @@
     height: 500px;
     /* padding: 8%; */
 }
-.headBox{
+
+.headBox {
     background-color: #000324;
     opacity: 0.8;
     /* Width of box */
@@ -74,18 +84,20 @@
     padding-left: 15%;
     padding-right: 15%;
 
-    
+
 }
-.headTitle{
+
+.headTitle {
     font-family: Dosis;
     font-size: 45px;
     color: #E5FEFF;
     opacity: 1;
     text-align: center;
 
-    
+
 }
-.headText{
+
+.headText {
     font-family: Source Sans Pro;
     font-size: 16px;
     color: #E5FEFF;
@@ -93,36 +105,38 @@
     text-align: center;
 
 }
+
 /* End of Head Image */
 
 /* Start of Hammy's Paradise */
-.hammysPic{
-    height: 416px;
+.hammysPic {
+    height: 460px;
     width: 369px;
     object-fit: cover;
 }
 
-.moveHammyPic{
+.moveHammyPic {
     display: flex;
     justify-content: flex-end;
 }
 
-.hammyTitle{
+.hammyTitle {
     color: #1A1B26;
     font-size: 35px;
     text-align: left;
 }
 
-.hammyText{
+.hammyText {
     color: #1A1B26;
     font-size: 16px;
     text-align: left;
 }
+
 /* End of Hammy's Paradise */
 
 /* Start Hammy's Rooms Image */
 
-.bgRooms{
+.bgRooms {
     background-image: url(../assets/bg2.jpg);
     background-size: cover;
     background-position: center;
@@ -134,34 +148,126 @@
     padding-right: 6.5%;
 }
 
-.roomTitle{
+.roomTitle {
     color: #FFFFFF;
     font-size: 35px;
     font-family: Dosis;
     text-align: center;
 }
 
-#leftCard{
-    display: flex;
-    justify-content: flex-end;
-}
-#middleCard{
+#leftCard {
     display: flex;
     justify-content: center;
 }
-#rightCard{
+
+#middleCard {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+}
+
+#rightCard {
+    display: flex;
+    justify-content: center;
+}
+
+.hammyRoomSize {
+    font-family: Source Sans Pro-Bold;
+    font-size: 16px;
+}
+
+.hammyRoomTitle {
+    font-family: Dosis;
+    font-size: 25px;
+    color: #1A1B26;
+}
+
+.marginSpacing {
+    margin-bottom: 20px;
+}
+
+.listIndent {
+    /* padding-left: px; */
+    margin-left: -15px;
+    /* text-indent: 0px;
+    list-style-position: inside; */
+}
+
+.buttonMarginTop {
+    margin-top: 110px;
+}
+
+.bgBorder {
+    border-radius: 0px;
+    border: none;
+}
+
+.buttonText {
+    font-family: Source San Pro-Bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+
 }
 
 /* End of Hammy's Rooms */
 
 /* Start of Packages */
-.weddingPackage{
+.weddingPackage {
     object-position: top;
 }
-.packagePic{
+
+.packagePic {
     width: 100%;
     height: 234px;
-    object-fit:cover;
+    object-fit: cover;
 }
+
+.packageTitle {
+    color: #1A1B26;
+    font-family: Dosis;
+    font-size: 35px;
+    text-align: center;
+}
+
+.packageType {
+    color: #1A1B26;
+    font-family: Dosis;
+    font-size: 25px;
+}
+
+.startingPrice{
+    color:#1F51A8;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+}
+
+.packageText{
+    color: #1A1B26;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+}
+
+/* End of Packages */
+
+/* Start of Amenities */
+
+.bgAmenities {
+    background-image: url(../assets/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    padding-left: 6.5%;
+    padding-right: 6.5%;
+}
+
+/* End of Amenities */
+
+/* Start of Reserve a Room */
+
+/* End of Reserve a Room */

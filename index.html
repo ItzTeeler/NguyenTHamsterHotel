@@ -62,11 +62,12 @@
     <!-- End of Head Image -->
 
     <!-- Start of Hammy's Paradise -->
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-5 moveHammyPic"><img class=" hammysPic" src="./assets/hamsterhomejpg.jpg" alt="Hammy's Home">
+            <div class="col-5 moveHammyPic"><img class=" hammysPic" src="./assets/hamsterhomejpg.jpg"
+                    alt="Hammy's Home">
             </div>
-            <div class="col-7">
+            <div class="col-5">
                 <p class="hammyTitle">Welcome to a hamster's paradise</p>
                 <p class="hammyText">Nestled in the heart of Cavia California, La Petite Maison is a luxury hotel
                     designed for the small mammal with extravagance in mind. Escape to the warm comforts of stunning
@@ -75,7 +76,7 @@
                 <p class="hammyText">Inspired by the warm beauty of the California Coast, we invite you to enjoy the
                     rich accommodationsalong with our unmatched luxury. Discover the satisfaction of indulging in our
                     quality rooms, and thank you for choosing La Petite Maison.</p>
-                <div class="row">
+                <div class="row d-flex justify-content-center align-items-end">
                     <div class="col"><img src="./assets/awardfinest.png" alt="Finest Award"></div>
                     <div class="col"><img src="./assets/awardsatisfaction.png" alt="Satisfaction Award"></div>
                     <div class="col"><img src="./assets/awardgenuine.png" alt="Genuine Award"></div>
@@ -92,37 +93,51 @@
                 <p>Our Rooms</p>
             </div>
         </div>
-        <div class="row">
-            <div class="col-4" id="leftCard">
-                <div class="card" style="width: 369px;">
-                    <img src="./assets/room1.jpg" class="card-img-top" alt="...">
+        <div class="row d-flex justify-content-center">
+            <div class="col-sm-12 col-lg-3" id="leftCard">
+                <div class="card bgBorder" style="width: 369px;">
+                    <img src="./assets/room1.jpg" class="card-img-top bgBorder" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title hammyRoomTitle">Queen Room</h5>
+                        <p class="card-text hammyRoomSize">850 SQ FT room with city view</p>
+                        <ul class="">
+                            <li class="marginSpacing listIndent">One queen size bed</li>
+                            <li class="marginSpacing listIndent">Seed Bar, fireplace and large balcony</li>
+                            <li class="marginSpacing listIndent">Small kitchen with a refrigerator and stove</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary buttonMarginTop bgBorder buttonText">Reserve</a>
                     </div>
                 </div>
             </div>
-            <div class="col-4" id="middleCard">
-                <div class="card" style="width: 369px;">
-                    <img src="./assets/room3.jpg" class="card-img-top" alt="...">
+            <div class="col-sm-12 col-lg-3" id="middleCard">
+                <div class="card bgBorder" style="width: 369px;">
+                    <img src="./assets/room3.jpg" class="card-img-top bgBorder" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title hammyRoomTitle">King Room</h5>
+                        <p class="card-text hammyRoomSize">950 SQ FT room with beach view</p>
+                        <ul>
+                            <li class="marginSpacing listIndent">One king size bed</li>
+                            <li class="marginSpacing listIndent">Seed Bar, fireplace and large balcony</li>
+                            <li class="marginSpacing listIndent">Small kitchen with a refrigerator and stove</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary buttonMarginTop bgBorder buttonText">Reserve</a>
                     </div>
                 </div>
             </div>
-            <div class="col-4" id="rightCard">
-                <div class="card" style="width: 369px;">
-                    <img src="./assets/room2.jpg" class="card-img-top" alt="...">
+            <div class="col-sm-12 col-lg-3" id="rightCard">
+                <div class="card bgBorder" style="width: 369px;">
+                    <img src="./assets/room2.jpg" class="card-img-top bgBorder" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title hammyRoomTitle">Beach Side Suite</h5>
+                        <p class="card-text hammyRoomSize">1500 SQ FT Suite with beach view</p>
+                        <ul>
+                            <li class="marginSpacing listIndent">One California king size bed</li>
+                            <li class="marginSpacing listIndent">Second room with fireplace, hot tub, and balcony</li>
+                            <li class="marginSpacing listIndent">Seed Bar and coffee station</li>
+                            <li class="marginSpacing listIndent">Full kitchen with a refrigerator, stove, and island
+                            </li>
+                        </ul>
+                        <a href="#" class="btn btn-primary bgBorder buttonText">Reserve</a>
                     </div>
                 </div>
             </div>
@@ -134,45 +149,92 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <p>Packages</p>
+                <p class="packageTitle">Packages</p>
             </div>
         </div>
         <div class="row">
             <div class="col-6"><img class="packagePic weddingPackage" src="./assets/hamsterwedding.jpg" alt=""></div>
             <div class="col-6">
-                <p>Beach Wedding package</p>
-                <p>Starting US $1,500.00</p>
-                <p>Feel the warmth of the beach as the flames in your hearts ignite during our romantic beach side
-                    wedding. All wedding packages include catering, an open bar, and one tier wedding cake (9" Vanilla
-                    standard cake). A private dinner for your closets family members and friends will be provided after
-                    the ceremony.</p>
+                <p class="packageType">Beach Wedding package</p>
+                <p class="startingPrice">Starting US $1,500.00</p>
+                <p class="packageText">Feel the warmth of the beach as the flames in your hearts ignite during our
+                    romantic beach side wedding. All wedding packages include catering, an open bar, and one tier
+                    wedding cake (9" Vanilla standard cake). A private dinner for your closets family members and
+                    friends will be provided after the ceremony.</p>
             </div>
         </div>
         <div class="row">
             <div class="col">
-                <p>Beach Wedding package</p>
-                <p>Starting US $1,500.00</p>
-                <p>Feel the warmth of the beach as the flames in your hearts ignite during our romantic beach side
-                    wedding. All wedding packages include catering, an open bar, and one tier wedding cake (9" Vanilla
-                    standard cake). A private dinner for your closets family members and friends will be provided after
-                    the ceremony.</p>
+                <p class="packageType">Full Bloom Package</p>
+                <p class="startingPrice">Starting US $1,000.00</p>
+                <p class="packageText">Enjoy the shade of our cherry trees as you join us during our spring time
+                    celebration. We invite you to our orchards for cherry, strawberry, and apple picking that is open
+                    all day. We end each evening with fresh, vegetable centric dinners along with a live show from local
+                    musicians.</p>
             </div>
             <div class="col"><img class="packagePic" src="./assets/hamsterspring.jpg" alt=""></div>
         </div>
         <div class="row">
             <div class="col"><img class="packagePic" src="./assets/hamstercheese.jpg" alt=""></div>
             <div class="col">
-                <p>Beach Wedding package</p>
-                <p>Starting US $1,500.00</p>
-                <p>Feel the warmth of the beach as the flames in your hearts ignite during our romantic beach side
-                    wedding. All wedding packages include catering, an open bar, and one tier wedding cake (9" Vanilla
-                    standard cake). A private dinner for your closets family members and friends will be provided after
-                    the ceremony.</p>
+                <p class="packageType">Cheese and Seed Tour Package</p>
+                <p class="startingPrice">Starting US $1,200.00</p>
+                <p class="packageText">Immerse yourself in the flavors of Cavia with our Cheese and Seed tour. We
+                    consulted with connoisseurs from around the globe to bring you the best flavors that nature has to
+                    offer, and create our cheeses right here at our local creamery. Cheese and seeds are served all day
+                    and nightly spa treatment is provided after dinner.</p>
             </div>
         </div>
     </div>
     <!-- End of Packages -->
 
+    <!-- Start of Amenities -->
+    <div class="container-fluid bgAmenities">
+        <div class="row">
+            <div class="col">
+                <h1>Amenities</h1>
+                <p>Here at La Petite Maison, we invite you to enjoy our services in hopes that you have the most
+                    relaxing stay we can provide.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <img src="./assets/24hour.png" alt="">
+                <p>24 Hour Room Service</p>
+            </div>
+            <div class="col">
+                <img src="./assets/breakfast.png" alt="">
+                <p>Complimentary Breakfast</p>
+            </div>
+            <div class="col">
+                <img src="./assets/valet.png" alt="">
+                <p>Valet Parking</p>
+            </div>
+            <div class="col">
+                <img src="./assets/pool.png" alt="">
+                <p>Beachside Pool</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- End of Amenities -->
+
+    <!-- Start of Reserve a Room -->
+    <div class="container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+
+        <div class="row">
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+        </div>
+    </div>
+    <!-- End of Reserve a Room -->
 
 
 
