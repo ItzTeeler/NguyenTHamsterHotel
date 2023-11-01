@@ -261,7 +261,7 @@
     margin-top: 3%;
     margin-bottom: 3%;
     padding-top: 5%;
-    padding-bottom: 10%;
+    padding-bottom: 7%;
     padding-left: 6.5%;
     padding-right: 6.5%;
 }
@@ -279,6 +279,17 @@
     padding-bottom: 10%;
     padding-left: 6.5%;
     padding-right: 6.5%;
+}
+
+.bgBoxColor{
+    background-color: #000324;
+}
+
+.reserveTitle{
+    color: #FFFFFF;
+    font-size: 35px;
+    font-family: Dosis;
+    text-align: center;
 }
 /* End of Reserve a Room */
 
@@ -311,5 +322,7 @@
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
+    align-items: center;
 }
+
 /* End of Footer */
