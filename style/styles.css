@@ -68,17 +68,11 @@
     align-items: center;
     margin-bottom: 3%;
     height: 500px;
-    /* padding: 8%; */
 }
 
 .headBox {
     background-color: #000324;
     opacity: 0.8;
-    /* Width of box */
-    /* margin-left: 20%;
-    margin-right: 20%; */
-
-    /* Padding of text inside */
     padding-top: 3%;
     padding-bottom: 3%;
     padding-left: 15%;
@@ -266,37 +260,6 @@
     padding-right: 6.5%;
 }
 
-/* End of Amenities */
-
-/* Start of Reserve a Room */
-.bgReserve {
-    background-image: url(../assets/hamsterreserve.jpg);
-    background-size: cover;
-    background-position: center;
-    margin-top: 3%;
-    margin-bottom: 3%;
-    padding-top: 5%;
-    padding-bottom: 10%;
-    padding-left: 6.5%;
-    padding-right: 6.5%;
-}
-
-.bgBoxColor{
-    background-color: #000324;
-}
-
-.reserveTitle{
-    color: #FFFFFF;
-    font-size: 35px;
-    font-family: Dosis;
-    text-align: center;
-}
-/* End of Reserve a Room */
-
-/* Start of Footer */
-.bgFooter{
-    background-color: #000324;
-}
 .amenHead{
     text-align: center;
     color: #FFFFFF;
@@ -325,4 +288,89 @@
     align-items: center;
 }
 
+/* End of Amenities */
+
+/* Start of Reserve a Room */
+.bgReserve {
+    background-image: url(../assets/hamsterreserve.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5%;
+    padding-top: 15%;
+    padding-bottom: 10%;
+    width: 100%;
+}
+
+.bgBoxColor{
+    background-color: #000324;
+    padding-top: 2%;
+    padding-bottom:3%;
+}
+
+.reserveTitle{
+    color: #FFFFFF;
+    font-size: 35px;
+    font-family: Dosis;
+    text-align: center;
+}
+
+.reserveText{
+    color: #E5FEFF;
+    font-size: 16px;
+    font-family: Source Sans Pro;
+}
+
+.reserveBtn{
+    background-color: #006EDB;
+    color: #FFFFFF;
+    border-color: #000DC7;
+    font-size: 20px;
+    font-family: Source Sans Pro-Bold;
+}
+
+
+/* End of Reserve a Room */
+
+/* Start of Footer */
+.bgFooter{
+    background-color: #000324;
+}
+
+.footText{
+    color: #FFFFFF;
+    text-align: center;
+}
 /* End of Footer */
+
+/* Media */
+@media screen and (max-width:992px) {
+    .moveHammyPic{
+        display: flex;
+        justify-content: center;
+    }
+    .headBox{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .reserveBtn{
+        background-color: #006EDB;
+        color: #FFFFFF;
+        border-color: #000DC7;
+        font-size: 15px;
+        font-family: Source Sans Pro-Bold;
+    }
+}
+@media screen and (max-width: 1615px){
+    .iconFaction{
+        width: 150px;
+    }
+    
+}
+@media screen and (max-width:1707px) {
+    .buttonMarginTopSuite{
+        margin-top: 40px;
+        
+    }
+}
