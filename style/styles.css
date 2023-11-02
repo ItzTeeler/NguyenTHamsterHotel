@@ -17,6 +17,11 @@
 /* End of Fonts */
 
 /* NavBar */
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,110,219, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
 .bgNavBar {
     background-color: #000324;
     top: 0;
@@ -232,13 +237,13 @@
     font-size: 25px;
 }
 
-.startingPrice{
-    color:#1F51A8;
+.startingPrice {
+    color: #1F51A8;
     font-family: Source Sans Pro;
     font-size: 16px;
 }
 
-.packageText{
+.packageText {
     color: #1A1B26;
     font-family: Source Sans Pro;
     font-size: 16px;
@@ -260,28 +265,29 @@
     padding-right: 6.5%;
 }
 
-.amenHead{
+.amenHead {
     text-align: center;
     color: #FFFFFF;
     font-size: 35px;
     font-family: Dosis;
 }
 
-.amenHeadText{
+.amenHeadText {
     text-align: center;
     color: #FFFFFF;
     font-size: 16px;
     font-family: Source Sans Pro;
 }
 
-.amenCenter{
+.amenCenter {
     text-align: center;
 }
-.amenText{
+
+.amenText {
     color: #FFFFFF;
 }
 
-.amenMove{
+.amenMove {
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
@@ -301,26 +307,26 @@
     width: 100%;
 }
 
-.bgBoxColor{
+.bgBoxColor {
     background-color: #000324;
     padding-top: 2%;
-    padding-bottom:3%;
+    padding-bottom: 3%;
 }
 
-.reserveTitle{
+.reserveTitle {
     color: #FFFFFF;
     font-size: 35px;
     font-family: Dosis;
     text-align: center;
 }
 
-.reserveText{
+.reserveText {
     color: #E5FEFF;
     font-size: 16px;
     font-family: Source Sans Pro;
 }
 
-.reserveBtn{
+.reserveBtn {
     background-color: #006EDB;
     color: #FFFFFF;
     border-color: #000DC7;
@@ -332,29 +338,33 @@
 /* End of Reserve a Room */
 
 /* Start of Footer */
-.bgFooter{
+.bgFooter {
     background-color: #000324;
 }
 
-.footText{
+.footText {
     color: #FFFFFF;
     text-align: center;
 }
+
 /* End of Footer */
 
 /* Media */
+@media screen and (max-width:767px) {}
+
 @media screen and (max-width:992px) {
-    .moveHammyPic{
+    .moveHammyPic {
         display: flex;
         justify-content: center;
     }
-    .headBox{
+
+    .headBox {
         width: 100%;
     }
 }
 
-@media screen and (max-width:1200px){
-    .reserveBtn{
+@media screen and (max-width:1200px) {
+    .reserveBtn {
         background-color: #006EDB;
         color: #FFFFFF;
         border-color: #000DC7;
@@ -362,15 +372,17 @@
         font-family: Source Sans Pro-Bold;
     }
 }
-@media screen and (max-width: 1615px){
-    .iconFaction{
+
+@media screen and (max-width: 1615px) {
+    .iconFaction {
         width: 150px;
     }
-    
+
 }
+
 @media screen and (max-width:1707px) {
-    .buttonMarginTopSuite{
+    .buttonMarginTopSuite {
         margin-top: 40px;
-        
+
     }
 }

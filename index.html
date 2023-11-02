@@ -11,11 +11,11 @@
 </head>
 
 <body>
-    <!-- Start of NavBar  -->
+    <!-- FIX ICONS OVERLAPPING AMENITIES -->
+    <!-- Start of NavBar -->
     <div class="d-none d-xl-block d-xxl-block">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid bgNavBar">
-                <a class="navbar-brand" href="#">Navbar</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -32,7 +32,7 @@
                             <a class="nav-link fontNavBar px-4" href="#">Packages</a>
                         </li>
                         <li class="nav-item ">
-                            <img class="nav-link px-3" src="./assets/Logo.png" alt="">
+                            <img class="nav-link px-3" src="./assets/Logo.png" alt="Logo Image">
                         </li>
                         <li class="nav-item ">
                             <a class="nav-link fontNavBar px-4" href="#">Amenities</a>
@@ -51,7 +51,6 @@
     <div class="d-none d-lg-block d-xl-none">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid bgNavBar">
-                <a class="navbar-brand" href="#">Navbar</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -90,11 +89,12 @@
                 <a class="navbar-brand" href="#">
                     <img src="./assets/Logo.png" alt="Bootstrap">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" style="background-color: #E5FEFF; border-color: #006EDB;" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+                    aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-center " id="navbarNav">
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                     <ul class="navbar-nav moveNavBar">
                         <li class="nav-item">
                             <a class="nav-link fontNavBar " aria-current="page" href="#">Overview</a>
@@ -126,7 +126,7 @@
     <!-- Head Image -->
     <div class="contaienr-fluid headImage">
         <div class="row headBox">
-            <div class="col">
+            <div class="col-12">
                 <h1 class="headTitle">Run on the wheel of luxury</h1>
                 <p class="headText">Explore everything the beach has to offer in our relaxing resort</p>
             </div>
@@ -136,7 +136,7 @@
     <!-- End of Head Image -->
 
     <!-- Start of Hammy's Paradise -->
-    <div class="d-none d-xxl-block ">
+    <div class="d-none d-xxl-block">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-5 moveHammyPic"><img class="hammysPic" src="./assets/hamsterhomejpg.jpg"
@@ -153,11 +153,11 @@
                         our
                         quality rooms, and thank you for choosing La Petite Maison.</p>
                     <div class="row d-flex justify-content-center align-items-end">
-                        <div class="col"><img class="iconFaction" src="./assets/awardfinest.png" alt="Finest Award">
+                        <div class="col-4"><img class="iconFaction" src="./assets/awardfinest.png" alt="Finest Award">
                         </div>
-                        <div class="col"><img class="iconFaction" src="./assets/awardsatisfaction.png"
+                        <div class="col-4"><img class="iconFaction" src="./assets/awardsatisfaction.png"
                                 alt="Satisfaction Award"></div>
-                        <div class="col"><img class="iconFaction" src="./assets/awardgenuine.png" alt="Genuine Award">
+                        <div class="col-4"><img class="iconFaction" src="./assets/awardgenuine.png" alt="Genuine Award">
                         </div>
                     </div>
                 </div>
@@ -181,8 +181,9 @@
                         our
                         quality rooms, and thank you for choosing La Petite Maison.</p>
                     <div class="row d-flex justify-content-center align-items-end">
-                        <div class="col"><img src="./assets/awardfinest.png" alt="Finest Award"></div>
-                        <div class="col"><img src="./assets/awardgenuine.png" alt="Genuine Award"></div>
+                        <div class="col-4"><img src="./assets/awardfinest.png" alt="Finest Award"></div>
+                        <div class="col-2"></div>
+                        <div class="col-4"><img src="./assets/awardgenuine.png" alt="Genuine Award"></div>
                     </div>
                 </div>
             </div>
@@ -204,20 +205,18 @@
                         rich accommodationsalong with our unmatched luxury. Discover the satisfaction of indulging in
                         our
                         quality rooms, and thank you for choosing La Petite Maison.</p>
-                    <div class="row d-flex justify-content-center align-items-end">
-                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="container-fluid d-md-block d-lg-none">
+    <div class="container-fluid d-none d-md-block d-lg-none">
         <div class="row">
-            <div class="col-12 moveHammyPic"><img class=" hammysPic" src="./assets/hamsterhomejpg.jpg"
-                    alt="Hammy's Home">
+            <div class="col-12 moveHammyPic"><img style="width: 80%" class=" hammysPic"
+                    src="./assets/hamsterhomejpg.jpg" alt="Hammy's Home">
             </div>
             <div class="col-12 px-5">
-                <p class="hammyTitle">Welcome to a hamster's paradise</p>
+                <p class="hammyTitle text-center">Welcome to a hamster's paradise</p>
                 <p class="hammyText">Nestled in the heart of Cavia California, La Petite Maison is a luxury hotel
                     designed for the small mammal with extravagance in mind. Escape to the warm comforts of stunning
                     rooms, a relaxing spa, and a pool with a beach side view.</p>
@@ -228,19 +227,35 @@
             </div>
         </div>
     </div>
+
+    <div class="container-fluid d-sm-block d-md-none">
+        <div class="row">
+            <div class="col-12 px-5">
+                <p class="hammyTitle text-center">Welcome to a hamster's paradise</p>
+                <p class="hammyText">Nestled in the heart of Cavia California, La Petite Maison is a luxury hotel
+                    designed for the small mammal with extravagance in mind. Escape to the warm comforts of stunning
+                    rooms, a relaxing spa, and a pool with a beach side view.</p>
+                <br>
+                <p class="hammyText">Inspired by the warm beauty of the California Coast, we invite you to enjoy the
+                    rich accommodationsalong with our unmatched luxury. Discover the satisfaction of indulging in our
+                    quality rooms, and thank you for choosing La Petite Maison.</p>
+            </div>
+        </div>
+    </div>
+
     <!-- End of Hammy's Paradise -->
 
     <!-- Start of Hammy's Rooms -->
     <div class="container-fluid bgRooms">
         <div class="row">
-            <div class="col roomTitle">
+            <div class="col-12 roomTitle">
                 <p>Our Rooms</p>
             </div>
         </div>
         <div class="row d-flex justify-content-center">
             <div class="col-sm-12 col-md-6 col-lg-3 pb-3" id="leftCard">
                 <div class="card bgBorder" style="width: 369px;">
-                    <img src="./assets/room1.jpg" class="card-img-top bgBorder" alt="...">
+                    <img src="./assets/room1.jpg" class="card-img-top bgBorder" alt="Queen Room Picture">
                     <div class="card-body">
                         <h5 class="card-title hammyRoomTitle">Queen Room</h5>
                         <p class="card-text hammyRoomSize">850 SQ FT room with city view</p>
@@ -255,7 +270,7 @@
             </div>
             <div class="col-sm-12 col-md-6 col-lg-3 pb-3" id="middleCard">
                 <div class="card bgBorder" style="width: 369px;">
-                    <img src="./assets/room3.jpg" class="card-img-top bgBorder" alt="...">
+                    <img src="./assets/room3.jpg" class="card-img-top bgBorder" alt="King Room Picture">
                     <div class="card-body">
                         <h5 class="card-title hammyRoomTitle">King Room</h5>
                         <p class="card-text hammyRoomSize">950 SQ FT room with beach view</p>
@@ -270,7 +285,7 @@
             </div>
             <div class="col-sm-12 col-md-6 col-lg-3 pb-3" id="rightCard">
                 <div class="card bgBorder" style="width: 369px;">
-                    <img src="./assets/room2.jpg" class="card-img-top bgBorder" alt="...">
+                    <img src="./assets/room2.jpg" class="card-img-top bgBorder" alt="Beach Side Suite Picture">
                     <div class="card-body">
                         <h5 class="card-title hammyRoomTitle">Beach Side Suite</h5>
                         <p class="card-text hammyRoomSize">1500 SQ FT Suite with beach view</p>
@@ -297,7 +312,8 @@
             </div>
         </div>
         <div class="row">
-            <div class="col"><img class="packagePic weddingPackage" src="./assets/hamsterwedding.jpg" alt=""></div>
+            <div class="col"><img class="packagePic weddingPackage" src="./assets/hamsterwedding.jpg"
+                    alt="Beach Wedding Package Picture"></div>
             <div class="col">
                 <p class="packageType">Beach Wedding package</p>
                 <p class="startingPrice">Starting US $1,500.00</p>
@@ -316,10 +332,12 @@
                     all day. We end each evening with fresh, vegetable centric dinners along with a live show from local
                     musicians.</p>
             </div>
-            <div class="col"><img class="packagePic" src="./assets/hamsterspring.jpg" alt=""></div>
+            <div class="col"><img class="packagePic" src="./assets/hamsterspring.jpg"
+                    alt="Spring Full Bloom Package Picture"></div>
         </div>
         <div class="row">
-            <div class="col"><img class="packagePic" src="./assets/hamstercheese.jpg" alt=""></div>
+            <div class="col"><img class="packagePic" src="./assets/hamstercheese.jpg"
+                    alt="Cheese and Seed Package Picture"></div>
             <div class="col">
                 <p class="packageType">Cheese and Seed Tour Package</p>
                 <p class="startingPrice">Starting US $1,200.00</p>
@@ -338,7 +356,8 @@
             </div>
         </div>
         <div class="row">
-            <div class="col"><img class="packagePic weddingPackage" src="./assets/hamsterwedding.jpg" alt=""></div>
+            <div class="col"><img class="packagePic weddingPackage" src="./assets/hamsterwedding.jpg"
+                    alt="Beach Wedding Package Picture"></div>
             <div class="col">
                 <p class="packageType">Beach Wedding package</p>
                 <p class="startingPrice">Starting US $1,500.00</p>
@@ -357,10 +376,12 @@
                     all day. We end each evening with fresh, vegetable centric dinners along with a live show from local
                     musicians.</p>
             </div>
-            <div class="col"><img class="packagePic" src="./assets/hamsterspring.jpg" alt=""></div>
+            <div class="col"><img class="packagePic" src="./assets/hamsterspring.jpg"
+                    alt="Spring Full Bloom Package Picture"></div>
         </div>
         <div class="row">
-            <div class="col"><img class="packagePic" src="./assets/hamstercheese.jpg" alt=""></div>
+            <div class="col"><img class="packagePic" src="./assets/hamstercheese.jpg"
+                    alt="Cheese and Seed Package Picture"></div>
             <div class="col">
                 <p class="packageType">Cheese and Seed Tour Package</p>
                 <p class="startingPrice">Starting US $1,200.00</p>
@@ -379,7 +400,8 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-12"><img class="packagePic weddingPackage" src="./assets/hamsterwedding.jpg" alt="">
+            <div class="col-sm-12"><img class="packagePic weddingPackage" src="./assets/hamsterwedding.jpg"
+                    alt="Beach Wedding Package Picture">
             </div>
             <div class="col-sm-12">
                 <p class="packageType">Beach Wedding package</p>
@@ -399,10 +421,12 @@
                     all day. We end each evening with fresh, vegetable centric dinners along with a live show from local
                     musicians.</p>
             </div>
-            <div class="col col-sm-12 order-1"><img class="packagePic" src="./assets/hamsterspring.jpg" alt=""></div>
+            <div class="col col-sm-12 order-1"><img class="packagePic" src="./assets/hamsterspring.jpg"
+                    alt="Spring Full Bloom Package Picture"></div>
         </div>
         <div class="row">
-            <div class="col col-sm-12"><img class="packagePic" src="./assets/hamstercheese.jpg" alt=""></div>
+            <div class="col col-sm-12"><img class="packagePic" src="./assets/hamstercheese.jpg"
+                    alt="Cheese and Seed Package Picture"></div>
             <div class="col col-sm-12">
                 <p class="packageType">Cheese and Seed Tour Package</p>
                 <p class="startingPrice">Starting US $1,200.00</p>
@@ -421,7 +445,8 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-xm-12"><img class="packagePic weddingPackage" src="./assets/hamsterwedding.jpg" alt="">
+            <div class="col-xm-12"><img class="packagePic weddingPackage" src="./assets/hamsterwedding.jpg"
+                    alt="Beach Wedding Package Picture">
             </div>
             <div class="col-xm-12">
                 <p class="packageType">Beach Wedding package</p>
@@ -441,10 +466,12 @@
                     all day. We end each evening with fresh, vegetable centric dinners along with a live show from local
                     musicians.</p>
             </div>
-            <div class="col col-sm-12 order-1"><img class="packagePic" src="./assets/hamsterspring.jpg" alt=""></div>
+            <div class="col col-sm-12 order-1"><img class="packagePic" src="./assets/hamsterspring.jpg"
+                    alt="Spring Full Bloom Package Picture"></div>
         </div>
         <div class="row">
-            <div class="col-xm-12"><img class="packagePic" src="./assets/hamstercheese.jpg" alt=""></div>
+            <div class="col-xm-12"><img class="packagePic" src="./assets/hamstercheese.jpg"
+                    alt="Cheese and Seed Package Picture"></div>
             <div class="col-xm-12">
                 <p class="packageType">Cheese and Seed Tour Package</p>
                 <p class="startingPrice">Starting US $1,200.00</p>
@@ -469,19 +496,20 @@
         <div class="container">
             <div class="row">
                 <div class="col-xm-12 col-sm-3 col-md-6 col-lg amenMove pt-5">
-                    <img src="./assets/24hour.png" style="height: 101px; width: 150px;" alt="">
+                    <img src="./assets/24hour.png" style="height: 101px; width: 150px;" alt="24Hr Room Service Icon">
                     <p class="amenCenter amenText pt-4">24 Hour Room Service</p>
                 </div>
                 <div class="col-xm-12 col-sm-3 col-md-6 col-lg amenMove pt-5">
-                    <img src="./assets/breakfast.png" style="height: 104px; width: 150px;" alt="">
+                    <img src="./assets/breakfast.png" style="height: 104px; width: 150px;"
+                        alt="Complimentary Breakfast Icon">
                     <p class="amenCenter amenText pt-4">Complimentary Breakfast</p>
                 </div>
                 <div class="col-xm-12 col-sm-3 col-md-6 col-lg amenMove pt-5">
-                    <img src="./assets/valet.png" style="height: 115px; width: 100px;" alt="">
+                    <img src="./assets/valet.png" style="height: 115px; width: 100px;" alt="Valet Parking Icon">
                     <p class="amenCenter amenText pt-4">Valet Parking</p>
                 </div>
                 <div class="col-xm-12 col-sm-3 col-md-6 col-lg amenMove pt-5">
-                    <img src="./assets/pool.png" style="height: 110px; width: 155px;" alt="">
+                    <img src="./assets/pool.png" style="height: 110px; width: 155px;" alt="Beachside Pool Icon">
                     <p class="amenCenter amenText pt-4">Beachside Pool</p>
                 </div>
             </div>
@@ -599,15 +627,15 @@
     </div>
 
 
-    <div class="container d-sm-block d-md-none">
+    <div class="container d-sm-block d-md-none mt-4">
         <div class="container bgBoxColor">
             <div class="row">
-                <div class="col reserveTitle pb-3">
+                <div class="col reserveTitle pb-1">
                     <p>Reserve a Room</p>
                 </div>
             </div>
 
-            <div class="container d-flex justify-content-center">
+            <div class="container d-flex justify-content-center pb-4">
                 <div class="row">
                     <div class="col-12">
                         <p class="reserveText">Check-in</p>
@@ -635,7 +663,7 @@
 
                     <div class="col-12">
                         <p class="reserveText">Room Type</p>
-                        <div class="input-group mb-3">
+                        <div class="input-group mb-1">
                             <input type="text" class="form-control bgBorder" aria-label="Sizing example input"
                                 aria-describedby="inputGroup-sizing-default">
                         </div>
@@ -647,13 +675,8 @@
                             class="btn btn-primary bgBorder reserveBtn d-flex align-items-center justify-content-center"
                             style="width: 100%; height: 36px;">Check Availability</button>
                     </div>
-                    
+
                 </div>
-            </div>
-        </div>
-        <div class="container bgReserve">
-            <div class="row">
-                <div class="col"></div>
             </div>
         </div>
     </div>
@@ -661,7 +684,7 @@
     <!-- End of Reserve a Room -->
 
     <!-- Start of Footer -->
-    <div class="container-fluid bgFooter pt-3 pb-4">
+    <div class="container-fluid bgFooter mt-4 pt-3 pb-4">
         <div class="row">
             <div class="col d-flex justify-content-center">
                 <img src="./assets/Logo.png" alt="">
