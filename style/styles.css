@@ -116,6 +116,7 @@
     height: 460px;
     width: 369px;
     object-fit: cover;
+    object-position: 100% 25%;
 }
 
 .moveHammyPic {
@@ -354,7 +355,24 @@
 /* End of Footer */
 
 /* Media */
-@media screen and (max-width:767px) {}
+@media screen and (max-width:768px) {
+    .hammysPic{
+    height: 460px;
+    width: 369px;
+    object-fit: cover;
+    object-position: 100%;}
+
+    .headImage {
+        background-image: url(../assets/header.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3%;
+        height: 300px;
+    }
+}
 
 @media screen and (max-width:992px) {
     .moveHammyPic {
@@ -386,7 +404,7 @@
 
 @media screen and (max-width:1707px) {
     .buttonMarginTopSuite {
-        margin-top: 40px;
+        margin-top: 30px;
 
     }
 }
