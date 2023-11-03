@@ -207,6 +207,7 @@
 
 .buttonText {
     font-family: Source San Pro-Bold;
+    background-color: #004CC7;
     display: flex;
     justify-content: center;
     align-items: center;
