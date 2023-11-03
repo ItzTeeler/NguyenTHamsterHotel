@@ -38,6 +38,10 @@
     border: 2px solid #E5FEFF;
     color: #FFFFFF;
 }
+.nav-link{
+    border: 2px solid;
+    border-color: transparent;
+}
 
 .fontNavBar:visited {
     color: #FFFFFF;
@@ -300,10 +304,10 @@
 .bgReserve {
     background-image: url(../assets/hamsterreserve.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: 0% 75%;
     margin-bottom: 5%;
     padding-top: 15%;
-    padding-bottom: 10%;
+    padding-bottom: 24%;
     width: 100%;
 }
 
